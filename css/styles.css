@@ -1855,7 +1855,7 @@ button:hover{
 	.overlay-model-main h1{
 		text-transform: uppercase;
 		font-weight: 200;
-		font-size: 3em;
+		font-size: 2em;
 	}
 
 	#slogan{
@@ -1894,7 +1894,7 @@ button:hover{
 	}
 
 	.sec-navigation-main{
-		padding-top: 8%;
+		padding-top: 16.5%;
 		padding-bottom: 1%;
 		width: 80%;
 		margin: 0 auto;
@@ -1904,6 +1904,11 @@ button:hover{
 		display:flex;
 	  justify-content: space-between;
 	  align-items: center;
+	}
+
+	.sec-navigation .type h3{
+		font-weight: 200;
+		font-size: 1em;
 	}
 
 	.sec-navigation ul {
@@ -1964,26 +1969,27 @@ button:hover{
 	.overlay-text-main-top p{
 		text-transform: uppercase;
 		font-weight: 400;
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 
 	.overlay-text-main-top h1{
 		text-transform: uppercase;
 		font-weight: 200;
-		font-size: 5em;
+		font-size: 3em;
+	}
+
+	#slogan{
+		display: none;
 	}
 
 	.overlay-text-main-bottom p{
-		text-transform: uppercase;
-		font-weight: 400;
-		font-size: 1em;
-		color: #ad7b61;
+		display: none;
 	}
 
 	.overlay-text-main-register h1{
 		text-transform: uppercase;
 		font-weight: 200;
-		font-size: 2em;
+		font-size: 1.5em;
 		margin-top: 5%;
 	}
 
