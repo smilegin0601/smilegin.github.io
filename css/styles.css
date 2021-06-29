@@ -2242,9 +2242,9 @@ button:hover{
 
 	.overlay-desc-wrapper{
 		position: absolute;
-	  top: 52%;
-	  left: 39%;
-	  transform: translate(-30%, -45%);
+	  top: 58%;
+    left: 21%;
+    transform: translate(-12%, -50%);
 	}
 
 	.overlay-desc{
