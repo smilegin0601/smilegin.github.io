@@ -112,7 +112,7 @@ img {
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
-  width: 20px;
+  width: 30px;
 }
 
 .header .menu-icon .navicon:before,
@@ -127,11 +127,11 @@ img {
 }
 
 .header .menu-icon .navicon:before {
-  top: 5px;
+  top: 9px;
 }
 
 .header .menu-icon .navicon:after {
-  top: -5px;
+  top: -9px;
 }
 
 .header .menu-btn {
