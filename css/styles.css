@@ -2253,14 +2253,12 @@ button:hover{
 	}
 
 	.overlay-desc-main p{
-		text-transform: uppercase;
-		font-weight: 300;
-		font-size: 0.8em;
+		display: none;
 	}
 
 	.overlay-desc-main h1{
 		font-weight: 400;
-		font-size: 1em;
+		font-size: 1.1em;
 	}
 
 
