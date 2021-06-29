@@ -1819,7 +1819,7 @@ button:hover{
 	.model-wrapper{
 		width: 100vw;
 		margin: 0 auto;
-		padding-top: 6%;
+		padding-top: 15.3%;
 	}
 
 	.model-main{
@@ -1849,13 +1849,17 @@ button:hover{
 	.overlay-model-main p{
 		text-transform: uppercase;
 		font-weight: 400;
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 
 	.overlay-model-main h1{
 		text-transform: uppercase;
 		font-weight: 200;
-		font-size: 5em;
+		font-size: 3em;
+	}
+
+	#slogan{
+		display: none;
 	}
 
 	.overlay-model-main .discover{
