@@ -1096,6 +1096,10 @@ button:hover{
     margin-right: 9.2%;
   }
 
+	.header .menu a{
+		font-size: 1.2em;
+	}
+
   .header .menu-icon {
     display: none;
   }
