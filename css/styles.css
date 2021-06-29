@@ -459,7 +459,7 @@ img {
 
 .overlay-text-wrapper{
 	position: absolute;
-  top: 25%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1722,7 +1722,7 @@ button:hover{
 	}
 
 	.imagebox .image img:hover{
-		transform: scale(1.2);
+		transform: scale(1.1);
 		transition: transform .4s;
 	}
 
