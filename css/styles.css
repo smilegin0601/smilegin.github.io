@@ -1799,7 +1799,7 @@ button:hover{
 		background-color: #ad7b61;
 		text-transform: uppercase;
 		font-weight: 300;
-		font-size: 0.5em;
+		font-size: 0.8em;
 	}
 
 	.overlay-dealer .stay-connected a:hover{
@@ -2439,6 +2439,7 @@ button:hover{
 		flex-wrap: wrap;
 	  justify-content: space-between;
 	  align-items: center;
+	  flex-direction: column;
 	}
 
 	.primary-footer-navigation ul {
@@ -2467,7 +2468,7 @@ button:hover{
 	}
 
 	.primary-footer-navigation .socials li{
-		padding-left: 1.5vw;
+		padding: 0 5%;
 	}
 
 	.primary-footer-navigation .socials li a{
