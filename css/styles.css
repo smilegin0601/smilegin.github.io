@@ -1618,7 +1618,7 @@ button:hover{
 
 
 
-@media screen and (max-device-width : 415px){
+@media screen and (max-device-width: 415px){
 																		                       /*Main - Navigation*/
 	.headwrapper{
 	    width: 100vw;
@@ -1692,7 +1692,7 @@ button:hover{
 																		                       /*Models Section - Title*/
 	.main-model-wrapper .main-model-main{
 		width: 80%;
-		margin: 3% auto 5%;
+		margin: 6% auto 8%;
 	}
 
 	.main-model-wrapper .main-model-main h1{
@@ -1720,7 +1720,7 @@ button:hover{
 		width: 80%;
 		background-color: #0F0F0F;
 		padding: 0 5%;
-		margin-bottom: 5%;
+		margin-bottom: 10%;
 	}
 
 	.imagebox:hover{
@@ -1804,7 +1804,7 @@ button:hover{
 	.overlay-dealer-main h1{
 		text-transform: uppercase;
 		font-weight: 300;
-		font-size: 2em;
+		font-size: 1em;
 		text-shadow: 5px 5px 10px #000;
 	}
 
@@ -1818,7 +1818,7 @@ button:hover{
 		background-color: #ad7b61;
 		text-transform: uppercase;
 		font-weight: 300;
-		font-size: 1em;
+		font-size: 0.5em;
 	}
 
 	.overlay-dealer .stay-connected a:hover{
@@ -2471,7 +2471,7 @@ button:hover{
 
 	.primary-footer-navigation ul li a {
 	  color: #fff;
-	  font-size: 1em;
+	  font-size: 0.8em;
 	  font-weight: 300;
 	}
 
@@ -2501,16 +2501,17 @@ button:hover{
 
 	.footer-page-details-main{
 		width: 80%;
-		margin: 0 auto;
+		margin: 0 auto 6%;
 		text-align: center;
 	}
 
 	.footer-page-details-main img{
-		margin: 4% 0 2%;
+		width: 35%;
+		margin: 8% 0 4%;
 	}
 
 	.footer-page-details-main p{
-		font-size: 0.8rem;
+		font-size: 0.7rem;
 	}
 
 
