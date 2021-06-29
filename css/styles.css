@@ -2051,7 +2051,7 @@ button:hover{
 	.spec-main p{
 		text-transform: uppercase;
 		font-weight: 300;
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 	.spec-main .arrow{
@@ -2277,13 +2277,14 @@ button:hover{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-evenly;
+		flex-direction: column;
 	}
 
 	.highlightbox{
-		width: 45%;
+		width: 80%;
 		background-color: #0F0F0F;
 		padding: 0 5%;
-		margin: 0 0 5%;
+		margin: 0 auto 5%;
 	}
 
 	.highlightbox:hover{
