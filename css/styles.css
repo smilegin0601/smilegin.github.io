@@ -2255,12 +2255,12 @@ button:hover{
 	.overlay-desc-main p{
 		text-transform: uppercase;
 		font-weight: 300;
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 
 	.overlay-desc-main h1{
 		font-weight: 400;
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 
 
@@ -2284,7 +2284,7 @@ button:hover{
 		width: 80%;
 		background-color: #0F0F0F;
 		padding: 0 5%;
-		margin: 0 auto 5%;
+		margin: 0 auto 10%;
 	}
 
 	.highlightbox:hover{
@@ -2294,7 +2294,7 @@ button:hover{
 
 	.highlightbox .text{
 		margin-top: 15%;
-		text-transform: uppercase;
+		text-transform: uzppercase;
 		font-weight: 300;
 		font-size: 1.5em;
 	}
