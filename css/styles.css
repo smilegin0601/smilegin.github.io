@@ -1084,7 +1084,7 @@ button:hover{
   .header .logo {
 		display: block;
 		float: left;
-		margin-top: 0.9%;
+		margin-top: 1.2%;
 		margin-left: 10.3%;
 	}
 
@@ -1241,7 +1241,7 @@ button:hover{
 
 																	                       /*Models Page - Secondary Navigation*/
 	.sec-navigation-main{
-		padding-top: 4.5%;
+		padding-top: 5.4%;
 		padding-bottom: 0%;
 		width: 80%;
 		margin: 0 auto;
@@ -1509,7 +1509,7 @@ button:hover{
 																	                                                 /*Support Page*/
 	.contact-wrapper{
 		width: 100vw;
-		padding: 6% 0 3%;
+		padding: 7% 0 3%;
 	}
 
 	.contact-wrapper .contact-main{
