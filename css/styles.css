@@ -1858,7 +1858,7 @@ button:hover{
 		font-size: 2em;
 	}
 
-	#slogan{
+	.slogan p{
 		display: none;
 	}
 
@@ -1978,7 +1978,7 @@ button:hover{
 		font-size: 3em;
 	}
 
-	#slogan{
+	.slogan p{
 		display: none;
 	}
 
