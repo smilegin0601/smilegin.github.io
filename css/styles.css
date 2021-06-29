@@ -1580,12 +1580,6 @@ button:hover{
 	}
 }
 
-@media screen and (min-device-width : 320px) and (max-device-width : 480px){
-	body{
-		background-color: red;
-	}
-}
-
 
 
 
@@ -1636,7 +1630,7 @@ button:hover{
 	}
 
 	.header .logo {
-		margin-top: 3.5%;
+		margin-top: 4%;
 		margin-left: 10.3%;
 	}
 
@@ -1652,7 +1646,7 @@ button:hover{
 	}
 
 	.header .menu a{
-		font-size: 1.5em;
+		font-size: 1em;
 		margin: 3% 0;
 	}
 
@@ -1691,7 +1685,7 @@ button:hover{
 
 	.main-video-main video{
 		width: 100%;
-		padding-top: 7.1%;
+		padding-top: 15.3%;
 	}
 
 
@@ -1702,12 +1696,12 @@ button:hover{
 	}
 
 	.main-model-wrapper .main-model-main h1{
-		font-size: 3em;
+		font-size: 2em;
 		margin: 0 auto;
 	}
 
 	.main-model-wrapper .main-model-main p{
-		font-size: 1.2em;
+		font-size: 1em;
 		margin: 0 auto;
 	}
 
@@ -1723,7 +1717,7 @@ button:hover{
 	}
 
 	.imagebox{
-		width: 45%;
+		width: 80%;
 		background-color: #0F0F0F;
 		padding: 0 5%;
 		margin-bottom: 5%;
