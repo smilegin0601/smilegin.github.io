@@ -91,9 +91,9 @@ img {
 }
 
 .header .menu a{
-	font-size: 1.2em;
+	font-size: 1.5em;
 	text-align: center;
-	margin: 1% 0;
+	margin: 3% 0;
 }
 
 .header .menu-icon{
@@ -1023,7 +1023,7 @@ button:hover{
 .text-main h1{
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 2em;
+	font-size: 3em;
 	margin-bottom: 5%;
 	color: #ad7b61;
 }
