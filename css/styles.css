@@ -2319,7 +2319,7 @@ button:hover{
 																		                                                 /*Support Page*/
 	.contact-wrapper{
 		width: 100vw;
-		padding: 12% 0 6%;
+		padding: 19% 0 10%;
 		background-color: #fff;
 		color: #000;
 	}
@@ -2339,7 +2339,7 @@ button:hover{
 	}
 
 	hr{
-		margin: 2% auto;
+		margin: 4% auto;
 	}
 
 	.contact-wrapper .contact-main p{
@@ -2349,13 +2349,13 @@ button:hover{
 	}
 
 	.contact-main-inner{
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 		text-align: center;
 	}
 
 	input[type=text]{
-		width: 25%;
+		width: 37%;
 	  margin-bottom: 20px;
 	  padding: 12px;
 	  border-top: 0;
@@ -2367,33 +2367,33 @@ button:hover{
 	 }
 
 	#title{
-	 	width: 10%;
+	 	width: 20%;
 	 	margin-right: 2%;
 	}
 		
 	#email{
-	 	width: 63%;
+	 	width: 100%;
 	}
 
 	#post{
-	 	width: 22%;
+	 	width: 38%;
 	}
 
 	#country{
-	 	width: 63%;
+	 	width: 100%;
 	}
 
 	.contact-main-inner .location input{
-	 	width: 40%;
+	 	width: 60%;
 	}
 
 	#subject{
-	 	width: 63%;
+	 	width: 100%;
 	}
 
 	textarea{
-	 	min-width: 63%;
-	 	max-width: 63%;
+	 	min-width: 100%;
+	 	max-width: 100%;
 	 	margin-bottom: 20px;
 	 	padding: 12px 12px 100px 12px;
 	 	border: 1px solid black;
@@ -2414,8 +2414,8 @@ button:hover{
 
 	button{
 		color: #ad7b61;
-		margin-top: 3%;
-		padding: 1% 6%;
+		margin-top: 8%;
+		padding: 3% 10%;
 		border: 1px solid #ad7b61;
 		text-transform: uppercase;
 		font-weight: 300;
