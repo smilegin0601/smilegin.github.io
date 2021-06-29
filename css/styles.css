@@ -2513,7 +2513,7 @@ button:hover{
 	.text-wrapper{
 		width: 100vw;
 		margin: 0 auto;
-		padding: 19% 0 10%;
+		padding: 22% 0 10%;
 		background-color: #fff;
 		color: #000;
 	}
@@ -2526,14 +2526,14 @@ button:hover{
 	.text-main h1{
 		text-transform: uppercase;
 		font-weight: 300;
-		font-size: 3em;
+		font-size: 1.5em;
 		margin-bottom: 5%;
 		color: #ad7b61;
 	}
 
 	.text-main p{
 		font-weight: 300;
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 }
 
