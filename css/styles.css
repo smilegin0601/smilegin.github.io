@@ -1620,29 +1620,18 @@ button:hover{
 
 @media screen and (max-device-width: 415px){
 																		                       /*Main - Navigation*/
-	.headwrapper{
-	    width: 100vw;
-	}
-
 	.header {
 		width: 100vw;
 		padding: 0.5% 0;
 	}
 
 	.header .logo {
-		margin-top: 4%;
+		margin-top: 4.2%;
 		margin-left: 10.3%;
 	}
 
 	.header .logo img{
 		width: 70%;
-	}
-
-	.header .menu {
-	  clear: both;
-	  max-height: 0;
-	  transition: max-height .2s ease-out;
-	  margin-right: 0;
 	}
 
 	.header .menu a{
@@ -1651,7 +1640,7 @@ button:hover{
 	}
 
 	.header .menu-icon{
-	  margin-right: 7.7%;
+	  margin-right: 5%;
 	}
 
 	.header .menu-icon .navicon {
@@ -1667,14 +1656,6 @@ button:hover{
 	  top: -9px;
 	}
 
-	.header .menu-btn:checked ~ .menu {
-	  max-height: 240px;
-	}
-
-	.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-	.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-	  top: 0;
-	}
 
 
 
@@ -2455,14 +2436,14 @@ button:hover{
 
 	.primary-footer-navigation{
 		display:flex;
+		flex-wrap: wrap;
 	  justify-content: space-between;
 	  align-items: center;
 	}
 
 	.primary-footer-navigation ul {
-	  margin: 0;
-	  padding: 1.5vw 0;
-	  text-align: right;
+	  margin: 0 auto;
+	  padding: 3% 5%;
 	}
 
 	.primary-footer-navigation ul li {
@@ -2471,7 +2452,7 @@ button:hover{
 
 	.primary-footer-navigation ul li a {
 	  color: #fff;
-	  font-size: 0.8em;
+	  font-size: 1em;
 	  font-weight: 300;
 	}
 
