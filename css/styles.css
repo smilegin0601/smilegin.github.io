@@ -1636,8 +1636,12 @@ button:hover{
 	}
 
 	.header .logo {
-		margin-top: 1.5%;
+		margin-top: 3.5%;
 		margin-left: 10.3%;
+	}
+
+	.header .logo img{
+		width: 70%;
 	}
 
 	.header .menu {
