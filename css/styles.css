@@ -2025,13 +2025,13 @@ button:hover{
 	.overlay-head-main p{
 		text-transform: uppercase;
 		font-weight: 300;
-		font-size: 5em;
+		font-size: 3em;
 	}
 
 	.overlay-head-main h1{
 		color: #ad7b61;
 		font-weight: 400;
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 
 
@@ -2082,14 +2082,14 @@ button:hover{
 	.type-main p{
 		text-transform: uppercase;
 		font-weight: 300;
-		font-size: 1.5em;
+		font-size: 1em;
 		padding: 3% 0;
 	}
 
 	.type-main h1{
 		text-transform: uppercase;
 		font-weight: 300;
-		font-size: 1.5em;
+		font-size: 0.8em;
 		color: #ad7b61;
 		border-bottom: 1px solid #ad7b61;
 		padding-bottom: 3%;
@@ -2118,17 +2118,19 @@ button:hover{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		flex-direction: column;
 	}
 
 	.specification .spec-textbox{
-		width: 47%;
-
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
 	}
 
 	.specification .spec-textbox p{
 		font-weight: 300;
 		font-size: 1em;
-		margin-bottom: 5%;
+		margin-bottom: 10%;
 	}
 
 	.specification .spec-textbox h1{
