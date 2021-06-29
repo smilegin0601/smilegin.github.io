@@ -963,7 +963,8 @@ button:hover{
 
 .primary-footer-navigation ul li a {
   color: #fff;
-  font-size: 0.8em;
+  font-size: 1em;
+  font-weight: 300;
 }
 
 .primary-footer-navigation .main li+li:before{
