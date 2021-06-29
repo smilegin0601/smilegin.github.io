@@ -1618,7 +1618,7 @@ button:hover{
 
 
 
-@media screen and (max-device-width: 415px){
+@media screen and (max-width: 415px){
 																		                       /*Main - Navigation*/
 	.header {
 		width: 100vw;
@@ -2294,7 +2294,7 @@ button:hover{
 
 	.highlightbox .text{
 		margin-top: 15%;
-		text-transform: uzppercase;
+		text-transform: uppercase;
 		font-weight: 300;
 		font-size: 1.5em;
 	}
