@@ -1969,6 +1969,10 @@ button:hover{
 		font-size: 0.8em;
 	}
 
+	#slogan{
+		display: none;
+	}
+
 	.overlay-text-main-top h1{
 		text-transform: uppercase;
 		font-weight: 200;
