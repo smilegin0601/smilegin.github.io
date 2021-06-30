@@ -1078,7 +1078,7 @@ button:hover{
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 	}
-	
+
 	.text-wrapper{
 		width: 100vw;
 		margin: 0 auto;
@@ -1088,7 +1088,7 @@ button:hover{
 	}
 
 	.text-main{
-		width: 70%;
+		width: 80%;
 		margin: 0 auto;
 	}
 
