@@ -1078,7 +1078,127 @@ button:hover{
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 	}
+	
 
+
+																	                                                 /*Support Page*/
+.contact-wrapper{
+	width: 100vw;
+	padding: 12% 0 6%;
+	background-color: #fff;
+	color: #000;
+}
+
+.contact-wrapper .contact-main{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact-wrapper .contact-main h1{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 3em;
+	margin: 0 auto;
+	color: #ad7b61;
+}
+
+hr{
+	margin: 2% auto;
+}
+
+.contact-wrapper .contact-main p{
+	font-weight: 300;
+	font-size: 1em;
+	margin: 0 auto 2%;
+}
+
+.contact-main-inner{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+input[type=text]{
+	width: 25%;
+  margin-bottom: 48px;
+  padding: 12px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-family: montserrat, sans-serif;
+  font-weight: 300;
+	font-size: 1em;
+ }
+
+#title{
+ 	width: 10%;
+ 	margin-right: 2%;
+}
+	
+#email{
+ 	width: 63%;
+}
+
+#post{
+ 	width: 22%;
+}
+
+#country{
+ 	width: 63%;
+}
+
+.contact-main-inner .location input{
+ 	width: 40%;
+}
+
+#subject{
+ 	width: 63%;
+}
+
+textarea{
+ 	min-width: 63%;
+ 	max-width: 63%;
+ 	margin-bottom: 20px;
+ 	padding: 12px 12px 100px 12px;
+ 	border: 1px solid black;
+  border-radius: 4px;
+  overflow: auto;
+  font-family: montserrat, sans-serif;
+  font-weight: 300;
+	font-size: 1em;
+}
+
+.radiobtn label{
+	width: 10%;
+}
+
+.radiobtn label input{
+	margin: 2% auto;
+}
+
+button{
+	color: #ad7b61;
+	margin-top: 3%;
+	padding: 1% 6%;
+	border: 1px solid #ad7b61;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000;
+	transition: background-color .4s;
+	transition: color .4s;
+}
+
+
+
+																	                       /*Footer - T&C*/
 	.text-wrapper{
 		width: 100vw;
 		margin: 0 auto;
