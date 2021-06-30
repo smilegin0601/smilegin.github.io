@@ -296,7 +296,7 @@ img {
 .overlay-dealer-main h1{
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 2em;
+	font-size: 2.3em;
 	text-shadow: 5px 5px 10px #000;
 }
 
@@ -306,11 +306,13 @@ img {
 }
 
 .overlay-dealer .stay-connected a{
-	padding: 1% 5%;
-	background-color: #ad7b61;
+	padding: 1.5% 5%;
+	background-color: #000;
 	text-transform: uppercase;
 	font-weight: 300;
 	font-size: 1em;
+	color: #ad7b61;
+  border: 1px solid #ad7b61;
 }
 
 .overlay-dealer .stay-connected a:hover{
@@ -738,7 +740,7 @@ tr:nth-child(even) {
 .desc-main img{
 	width: 100%;
 	margin-top: 7%;
-	filter: brightness(70%);
+	filter: brightness(50%);
 }
 
 .overlay-desc-wrapper{
@@ -1625,6 +1627,16 @@ button:hover{
 
 
 
+@media screen and (-webkit-min-device-pixel-ratio: 3.5){
+	.overlay-text-wrapper{
+		position: absolute;
+	  top: 25%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	}
+}
+
+
 
 @media screen and (max-width: 415px){
 																		                       /*Main - Navigation*/
@@ -2246,7 +2258,7 @@ button:hover{
 	.desc-main img{
 		width: 100%;
 		margin-top: 7%;
-		filter: brightness(70%);
+		filter: brightness(50%);
 	}
 
 	.overlay-desc-wrapper{
