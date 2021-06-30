@@ -1074,7 +1074,7 @@ button:hover{
 @media screen and (-webkit-min-device-pixel-ratio: 1.5){
 	.overlay-text-wrapper{
 		position: absolute;
-	  top: 25%;
+	  top: 24%;
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 	}
