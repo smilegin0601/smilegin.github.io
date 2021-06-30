@@ -1069,7 +1069,7 @@ button:hover{
 
 
 																	                                                 /*Media Qureies*/
-@media screen and (min-width: 981)/*greater than or equal to 981px*/{
+@media screen and (min-width: 981px)/*greater than or equal to 981px*/{
 																	                       /*Main Navigation*/
 	.header li {
     float: left;
