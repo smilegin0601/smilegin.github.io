@@ -758,12 +758,12 @@ tr:nth-child(even) {
 .overlay-desc-main p{
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 1em;
+	font-size: 1.3em;
 }
 
 .overlay-desc-main h1{
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 
