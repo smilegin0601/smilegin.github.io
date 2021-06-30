@@ -951,17 +951,19 @@ button:hover{
   align-items: center;
 }
 
-.primary-footer-navigation ul {
+.primary-footer-navigation ul{
   margin: 0;
   padding: 1.5vw 0;
   text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.primary-footer-navigation ul li {
+.primary-footer-navigation ul li{
   display: inline;
 }
 
-.primary-footer-navigation ul li a {
+.primary-footer-navigation ul li a{
   color: #fff;
   font-size: 1em;
   font-weight: 300;
@@ -978,7 +980,7 @@ button:hover{
 }
 
 .primary-footer-navigation .socials li{
-	padding-left: 1.5vw;
+	margin-left: 40%;
 }
 
 .primary-footer-navigation .socials li a{
