@@ -411,7 +411,7 @@ img {
 	display:flex;
   justify-content: space-between;
   align-items: center;
-  /*color: red;*/
+  color: blue;
 }
 
 .sec-navigation ul {
