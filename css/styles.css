@@ -324,75 +324,75 @@ img {
 
 
 																	                                                 /*The Brand Page*/
-	.brand-wrapper{
-		width: 100vw;
-		margin: 0 auto;
-		padding-top: 7.1%;
-	}
+.brand-wrapper{
+	width: 100vw;
+	margin: 0 auto;
+	padding-top: 7.1%;
+}
 
-	.brand-main{
-		width: 100vw;
-		margin: 0 auto;
-		position: relative;
-	  text-align: left;
-	}
+.brand-main{
+	width: 100vw;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+}
 
-	#vision{
-	  text-align: right;
-	}
+#vision{
+	text-align: right;
+}
 
-	#design{
-	  text-align: right;
-	}
+#design{
+	text-align: right;
+}
 
-	.brand-main img{
-		width: 100vw;
-		margin: 0 auto;
-		object-fit: contain;
-		filter: brightness(70%);
-	}
+.brand-main img{
+	width: 100vw;
+	margin: 0 auto;
+	object-fit: contain;
+	filter: brightness(70%);
+}
 
-	.overlay-brand-wrapper{
-		position: absolute;
-	  top: 46%;
-	  left: 35%;
-	 	transform: translate(-50%, -50%);
-	}
+.overlay-brand-wrapper{
+	position: absolute;
+	top: 46%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+}
 
-	#vision-overlay{
-		position: absolute;
-	  top: 46%;
-	  left: 63%;
-	 	transform: translate(-50%, -50%);
-	}
+#vision-overlay{
+	position: absolute;
+	top: 46%;
+	left: 63%;
+	transform: translate(-50%, -50%);
+}
 
-	#design-overlay{
-		position: absolute;
-	  top: 46%;
-	  left: 63%;
-	 	transform: translate(-50%, -50%);
-	}
+#design-overlay{
+	position: absolute;
+	top: 46%;
+	left: 63%;
+	transform: translate(-50%, -50%);
+}
 
-	.overlay-brand{
-		width: 50vw;
-	}
+.overlay-brand{
+	width: 50vw;
+}
 
-	.overlay-brand-main p{
-		font-weight: 400;
-		font-size: 1em;
-	}
+.overlay-brand-main p{
+	font-weight: 400;
+	font-size: 1em;
+}
 
-	.overlay-brand-main h1{
-		text-transform: uppercase;
-		font-weight: 200;
-		font-size: 3em;
-	}
+.overlay-brand-main h1{
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 3em;
+}
 
-	.overlay-brand-main h2{
-		text-transform: uppercase;
-		font-weight: 200;
-		font-size: 2em;
-	}
+.overlay-brand-main h2{
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 2em;
+}
 
 
 
