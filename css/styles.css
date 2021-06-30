@@ -48,7 +48,7 @@ img {
 
 																	                       /*Main - Navigation*/
 .headwrapper{
-	width: 100vw;
+    width: 100vw;
 }
 
 .header {
@@ -418,8 +418,8 @@ img {
 
 .overlay-model-wrapper{
 	position: absolute;
-  top: 49%;
-  left: 35%;
+  	top: 49%;
+  	left: 35%;
  	transform: translate(-50%, -50%);
 }
 
@@ -479,19 +479,19 @@ img {
 
 .sec-navigation{
 	display:flex;
-  justify-content: space-between;
-  align-items: center;
+  	justify-content: space-between;
+  	align-items: center;
 }
 
 .sec-navigation ul {
-  margin: 0;
-  padding: 1vw 0;
-  width: 60%;
-  text-align: right;
+  	margin: 0;
+  	padding: 1vw 0;
+  	width: 60%;
+  	text-align: right;
 }
 
 .sec-navigation ul li {
-  display: inline;
+  	display: inline;
 }
 
 .sec-navigation #highlights, #specs{
@@ -499,8 +499,8 @@ img {
 }
 
 .sec-navigation ul li a {
-  color: #fff;
-  padding-right: 20px;
+  	color: #fff;
+  	padding-right: 20px;
 	font-size: 0.95em;
 }
 
@@ -529,9 +529,9 @@ img {
 
 .overlay-text-wrapper{
 	position: absolute;
-  top: 38.5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  	top: 38.5%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 
 .overlay-text-main{
@@ -584,8 +584,8 @@ img {
 
 .overlay-head-wrapper{
 	position: absolute;
-  top: 47%;
-  left: 35%;
+  	top: 47%;
+  	left: 35%;
   transform: translate(-50%, -50%);
 }
 
@@ -667,20 +667,20 @@ img {
 }
 
 table {
-  border-collapse: collapse;
-  width: 80%;
-  margin: 0 auto 2%;
+  	border-collapse: collapse;
+  	width: 80%;
+  	margin: 0 auto 2%;
 }
 
 td, th {
-  text-align: center;
-  padding: 3%;
-  font-weight: 300;
-  line-height: 1.5;
+  	text-align: center;
+  	padding: 3%;
+  	font-weight: 300;
+  	line-height: 1.5;
 }
 
 tr:nth-child(even) {
-  background-color: #0F0F0F;
+  	background-color: #0F0F0F;
 }
 
 .specification{
@@ -724,31 +724,31 @@ tr:nth-child(even) {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100vw;
+  	max-width: 100vw;
   	position: relative;
-  margin: auto;
+  	margin: auto;
 }
 
 /* Next & previous buttons */
 .prev, .next {
 	cursor: pointer;
-  position: absolute;
-  top: 50%;
+  	position: absolute;
+  	top: 50%;
  	width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 30px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+  	padding: 16px;
+  	margin-top: -22px;
+  	color: white;
+  	font-weight: bold;
+  	font-size: 30px;
+  	transition: 0.6s ease;
+  	border-radius: 0 3px 3px 0;
+  	user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
 	right: 0;
-  border-radius: 3px 0 0 3px;
+  	border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -758,36 +758,36 @@ tr:nth-child(even) {
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 10px;
-  width: 10px;
-  margin: 0 2px;
-  background-color: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}	
+  	cursor: pointer;
+  	height: 10px;
+  	width: 10px;
+  	margin: 0 2px;
+  	background-color: #fff;
+  	border-radius: 50%;
+  	display: inline-block;
+  	transition: background-color 0.6s ease;
+}
 
 .active, .dot:hover {
-  background-color: #ad7b61;
+  	background-color: #ad7b61;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+  	-webkit-animation-name: fade;
+  	-webkit-animation-duration: 1.5s;
+  	animation-name: fade;
+  	animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  	from {opacity: .4} 
+  	to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  	from {opacity: .4} 
+  	to {opacity: 1}
 }
 
 
@@ -802,7 +802,7 @@ tr:nth-child(even) {
 	width: 100%;
 	margin: 7% auto;
 	position: relative;
-  text-align: left;
+  	text-align: left;
 }
 
 .desc-main img{
@@ -948,7 +948,7 @@ input[type=text]{
 
 textarea{
  	font-family: montserrat, sans-serif;
-  font-weight: 300;
+  	font-weight: 300;
 	font-size: 1em;
  	min-width: 53.5%;
  	max-width: 53.5%;
@@ -997,26 +997,26 @@ button:hover{
 
 .primary-footer-navigation{
 	display:flex;
-  justify-content: space-between;
-  align-items: center;
+  	justify-content: space-between;
+  	align-items: center;
 }
 
 .primary-footer-navigation ul{
-  margin: 0;
-  padding: 1.5vw 0;
-  text-align: right;
-  display: flex;
-  justify-content: flex-end;
+  	margin: 0;
+  	padding: 1.5vw 0;
+  	text-align: right;
+  	display: flex;
+  	justify-content: flex-end;
 }
 
 .primary-footer-navigation ul li{
-  display: inline;
+  	display: inline;
 }
 
 .primary-footer-navigation ul li a{
-  color: #fff;
-  font-size: 1em;
-  font-weight: 300;
+  	color: #fff;
+  	font-size: 1em;
+  	font-weight: 300;
 }
 
 .primary-footer-navigation .main li+li:before{
@@ -1243,9 +1243,9 @@ button:hover{
 																	                       /*Dealership Section - Text*/
 	.overlay-dealer-wrapper{
 		position: absolute;
-	  top: 50%;
-	  left: 50%;
-	  transform: translate(-50%, -50%);
+	  	top: 50%;
+	  	left: 50%;
+	  	transform: translate(-50%, -50%);
 	}
 
 	.overlay-dealer-main h1{
@@ -1279,11 +1279,11 @@ button:hover{
 	}
 
 	#vision{
-	  text-align: right;
+	  	text-align: right;
 	}
 
 	#design{
-	  text-align: right;
+	  	text-align: right;
 	}
 
 	.brand-main img{
@@ -1296,21 +1296,21 @@ button:hover{
 	.overlay-brand-wrapper{
 		position: absolute;
 	 	top: 46%;
-	  left: 35%;
+	  	left: 35%;
 	 	transform: translate(-50%, -50%);
 	}
 
 	#vision-overlay{
 		position: absolute;
 	 	top: 46%;
-	  left: 63%;
+	  	left: 63%;
 	 	transform: translate(-50%, -50%);
 	}
 
 	#design-overlay{
 		position: absolute;
-	  top: 46%;
-	  left: 63%;
+	  	top: 46%;
+	  	left: 63%;
 	 	transform: translate(-50%, -50%);
 	}
 
@@ -1350,13 +1350,13 @@ button:hover{
 		width: 100vw;
 		margin: 0 auto;
 		position: relative;
-	  text-align: left;
+	  	text-align: left;
 	}
 
 	.overlay-model-wrapper{
 		position: absolute;
-	  top: 47%;
-	  left: 35%;
+	  	top: 47%;
+	  	left: 35%;
 	 	transform: translate(-50%, -50%);
 	}
 
@@ -1394,19 +1394,19 @@ button:hover{
 
 	.sec-navigation{
 		display:flex;
-	  justify-content: space-between;
-	  align-items: center;
+	  	justify-content: space-between;
+	  	align-items: center;
 	}
 
 	.sec-navigation ul {
 	 	margin: 0;
-	  padding: 1vw 0;
-	  width: 60%;
+	  	padding: 1vw 0;
+	  	width: 60%;
 	}
 
 	.sec-navigation ul li a {
-		color: #fff;
-	  padding-right: 20px;
+		 color: #fff;
+	  	padding-right: 20px;
 		font-size: 0.95em;
 	}
 
@@ -1416,8 +1416,8 @@ button:hover{
 	.overlay-text-wrapper{
 		position: absolute;
 	 	top: 60%;
-	  left: 50%;
-	  transform: translate(-50%, -50%);
+	  	left: 50%;
+	  	transform: translate(-50%, -50%);
 	}
 
 	.overlay-text-main{
@@ -1455,7 +1455,7 @@ button:hover{
 		position: absolute;
 	 	top: 47%;
 	 	left: 35%;
-	  transform: translate(-50%, -50%);
+	  	transform: translate(-50%, -50%);
 	}
 
 	.overlay-head{
@@ -1504,13 +1504,13 @@ button:hover{
 	}
 
 	table {
-	  width: 80%;
-	  margin: 0 auto 2%;
+	  	width: 80%;
+	  	margin: 0 auto 2%;
 	}
 
 	td, th {
-	  padding: 1.5%;
-	  line-height: 1.5;
+	  	padding: 1.5%;
+	  	line-height: 1.5;
 	}
 
 	.specification{
@@ -1539,39 +1539,39 @@ button:hover{
 
 																	                       /*Models Page - Gallery*/
 	.slideshow-container {
-  	max-width: 100vw;
-  	position: relative;
-  	margin: auto;
+  		max-width: 100vw;
+  		position: relative;
+  		margin: auto;
 	}
 
 	.prev, .next {
 		cursor: pointer;
-  	position: absolute;
-  	top: 50%;
+  		position: absolute;
+  		top: 50%;
  		width: auto;
-	  padding: 16px;
-	  margin-top: -22px;
-  	color: white;
+	  	padding: 16px;
+	  	margin-top: -22px;
+  		color: white;
 		font-weight: bold;
  		font-size: 50px;
-	  transition: 0.6s ease;
-	  border-radius: 0 3px 3px 0;
+	  	transition: 0.6s ease;
+	  	border-radius: 0 3px 3px 0;
  		user-select: none;
 	}
 
 	.next {
 		right: 0;
-  	border-radius: 3px 0 0 3px;
+  		border-radius: 3px 0 0 3px;
 	}
 
 	.prev:hover, .next:hover {
-  	background-color: rgba(0,0,0,0.8);
+  		background-color: rgba(0,0,0,0.8);
 	}
 
 	.dot {
-  	height: 10px;
-  	width: 10px;
-  	margin: 0 2px;
+  		height: 10px;
+  		width: 10px;
+  		margin: 0 2px;
 	}
 
 
@@ -1581,7 +1581,7 @@ button:hover{
 		width: 80%;
 		margin: 0 auto;
 		position: relative;
- 		text-align: left;
+ 		 text-align: left;
 	}
 
 	.desc-main img{
@@ -1594,7 +1594,7 @@ button:hover{
 		position: absolute;
  	 	top: 50%;
  	 	left: 50%;
-  	transform: translate(-50%, -50%);
+  		transform: translate(-50%, -50%);
 	}
 
 	.overlay-desc{
@@ -1693,11 +1693,11 @@ button:hover{
 		font-size: 1em;
 		width: 12%;
 		margin-bottom: 2%;
-	  padding: 1%;
-	  border-top: 0;
-	  border-left: 0;
-	  border-right: 0;
-	  text-align: center;
+	  	padding: 1%;
+	  	border-top: 0;
+	  	border-left: 0;
+	  	border-right: 0;
+	  	text-align: center;
 	 }
 
 	#title{
@@ -1719,14 +1719,14 @@ button:hover{
 
 	textarea{
 	 	font-family: montserrat, sans-serif;
-	  font-weight: 300;
+	  	font-weight: 300;
 		font-size: 1em;
 	 	min-width: 30.1%;
 	 	max-width: 30.1%;
 	 	padding: 1% 1% 10% 1%;
 	 	border: 1px solid black;
-	  border-radius: 4px;
-	  overflow: auto;
+	  	border-radius: 4px;
+	  	overflow: auto;
 	}
 
 	.radiobtn{
@@ -1768,16 +1768,16 @@ button:hover{
 
 	.primary-footer-navigation{
 		display:flex;
-	  justify-content: space-between;
-	  align-items: center;
+	  	justify-content: space-between;
+	  	align-items: center;
 	}
 
 	.primary-footer-navigation ul{
-	  margin: 0;
-	  padding: 1.5vw 0;
-	  text-align: right;
-	  display: flex;
-	  justify-content: flex-end;
+	  	margin: 0;
+	  	padding: 1.5vw 0;
+	  	text-align: right;
+	  	display: flex;
+	  	justify-content: flex-end;
 	}
 
 	.primary-footer-navigation ul li{
@@ -1914,20 +1914,20 @@ button:hover{
 	}
 
 	.header .menu-icon{
-	  margin-right: 5%;
+	  	margin-right: 5%;
 	}
 
 	.header .menu-icon .navicon {
-	  height: 2px;
+	  	height: 2px;
 		width: 30px;
 	}
 
 	.header .menu-icon .navicon:before {
-	  top: 9px;
+	  	top: 9px;
 	}
 
 	.header .menu-icon .navicon:after {
-	  top: -9px;
+	  	top: -9px;
 	}
 
 
@@ -2049,8 +2049,8 @@ button:hover{
 																		                       /*Dealership Section - Text*/
 	.overlay-dealer-wrapper{
 		position: absolute;
-	  top: 46%;
-	  left: 50%;
+	  	top: 46%;
+	  	left: 50%;
 	  transform: translate(-50%, -50%);
 	}
 
@@ -2098,15 +2098,15 @@ button:hover{
 		width: 100vw;
 		margin: 0 auto;
 		position: relative;
-	  text-align: left;
+	  	text-align: left;
 	}
 
 	#vision{
-	  text-align: right;
+	  	text-align: right;
 	}
 
 	#design{
-	  text-align: right;
+	  	text-align: right;
 	}
 
 	.brand-main img{
@@ -2118,22 +2118,22 @@ button:hover{
 
 	.overlay-brand-wrapper{
 		position: absolute;
-	  top: 46%;
-	  left: 40%;
+	  	top: 46%;
+	  	left: 40%;
 	 	transform: translate(-50%, -50%);
 	}
 
 	#vision-overlay{
 		position: absolute;
-	  top: 46%;
-	  left: 60.3%;
+	  	top: 46%;
+	  	left: 60.3%;
 	 	transform: translate(-50%, -50%);
 	}
 
 	#design-overlay{
 		position: absolute;
-	  top: 46%;
-	  left: 60.3%;
+	  	top: 46%;
+	  	left: 60.3%;
 	 	transform: translate(-50%, -50%);
 	}
 
@@ -2182,8 +2182,8 @@ button:hover{
 
 	.overlay-model-wrapper{
 		position: absolute;
-	  top: 49%;
-	  left: 35%;
+	  	top: 49%;
+	  	left: 35%;
 	 	transform: translate(-50%, -50%);
 	}
 
@@ -2246,8 +2246,8 @@ button:hover{
 
 	.sec-navigation{
 		display:flex;
-	 	justify-content: space-between;
-	 	align-items: center;
+	  	justify-content: space-between;
+	  	align-items: center;
 	}
 
 	.sec-navigation .type h3{
@@ -2255,14 +2255,14 @@ button:hover{
 	}
 
 	.sec-navigation ul {
-	  margin: 0;
-	  padding: 1vw 0;
-	  width: 60%;
-	  text-align: right;
+	  	margin: 0;
+	  	padding: 1vw 0;
+	  	width: 60%;
+	  	text-align: right;
 	}
 
 	.sec-navigation ul li {
-	  display: inline;
+	  	display: inline;
 	}
 
 	.sec-navigation #highlights, #specs{
@@ -2270,8 +2270,8 @@ button:hover{
 	}
 
 	.sec-navigation ul li a {
-	  color: #fff;
-	  padding-right: 20px;
+	  	color: #fff;
+	  	padding-right: 20px;
 		font-size: 0.95em;
 	}
 
@@ -2300,9 +2300,9 @@ button:hover{
 
 	.overlay-text-wrapper{
 		position: absolute;
-	  top: 21.5%;
-	  left: 50%;
-	  transform: translate(-50%, -50%);
+	  	top: 21.5%;
+	  	left: 50%;
+	  	transform: translate(-50%, -50%);
 	}
 
 	.overlay-text-main{
@@ -2439,21 +2439,21 @@ button:hover{
 	}
 
 	table {
-	  border-collapse: collapse;
-	  width: 80%;
-	  margin: 0 auto 5%;
+	  	border-collapse: collapse;
+	  	width: 80%;
+	  	margin: 0 auto 5%;
 	}
 
 	td, th {
-	  text-align: center;
-	  padding: 3%;
-	  font-weight: 300;
-	  line-height: 1.5;
-	  font-size: 1em;
+	  	text-align: center;
+	  	padding: 3%;
+	  	font-weight: 300;
+	  	line-height: 1.5;
+	  	font-size: 1em;
 	}
 
 	tr:nth-child(even) {
-	  background-color: #0F0F0F;
+	  	background-color: #0F0F0F;
 	}
 
 	.specification{
@@ -2499,25 +2499,25 @@ button:hover{
 
 	/* Slideshow container */
 	.slideshow-container {
-	  max-width: 100vw;
-	  position: relative;
-	  margin: auto;
+	  	max-width: 100vw;
+	  	position: relative;
+	  	margin: auto;
 	}
 
 	/* Next & previous buttons */
 	.prev, .next {
 		cursor: pointer;
 	 	position: absolute;
-	  top: 50%;
+	  	top: 50%;
 	 	width: auto;
-	  padding: 16px;
-	  margin-top: -22px;
-	  color: white;
-	  font-weight: bold;
-	  font-size: 30px;
-	  transition: 0.6s ease;
-	  border-radius: 0 3px 3px 0;
-	  user-select: none;
+	  	padding: 16px;
+	  	margin-top: -22px;
+	  	color: white;
+	  	font-weight: bold;
+	  	font-size: 30px;
+	  	transition: 0.6s ease;
+	  	border-radius: 0 3px 3px 0;
+	  	user-select: none;
 	}
 
 	/* Position the "next button" to the right */
@@ -2528,41 +2528,41 @@ button:hover{
 
 	/* On hover, add a black background color with a little bit see-through */
 	.prev:hover, .next:hover {
-	 background-color: rgba(0,0,0,0.8);
+	  	background-color: rgba(0,0,0,0.8);
 	}
 
 	/* The dots/bullets/indicators */
 	.dot {
-	  cursor: pointer;
-	  height: 10px;
-	  width: 10px;
-	  margin: 0 2px;
-	  background-color: #fff;
-	  border-radius: 50%;
-	  display: inline-block;
-	  transition: background-color 0.6s ease;
+	  	cursor: pointer;
+	  	height: 10px;
+	  	width: 10px;
+	  	margin: 0 2px;
+	  	background-color: #fff;
+	  	border-radius: 50%;
+	  	display: inline-block;
+	  	transition: background-color 0.6s ease;
 	}
 
 	.active, .dot:hover {
-	  background-color: #ad7b61;
+	  	background-color: #ad7b61;
 	}
 
 	/* Fading animation */
 	.fade {
-	  -webkit-animation-name: fade;
-	  -webkit-animation-duration: 1.5s;
-	  animation-name: fade;
-	  animation-duration: 1.5s;
+	  	-webkit-animation-name: fade;
+	  	-webkit-animation-duration: 1.5s;
+	  	animation-name: fade;
+	  	animation-duration: 1.5s;
 	}
 
 	@-webkit-keyframes fade {
-	  from {opacity: .4} 
-	  to {opacity: 1}
+	  	from {opacity: .4} 
+	  	to {opacity: 1}
 	}
 
 	@keyframes fade {
-	  from {opacity: .4} 
-	  to {opacity: 1}
+	  	from {opacity: .4} 
+	  	to {opacity: 1}
 	}
 
 
@@ -2587,9 +2587,9 @@ button:hover{
 
 	.overlay-desc-wrapper{
 		position: absolute;
-	  top: 54%;
-    left: 21%;
-    transform: translate(-12%, -50%);
+	  	top: 54%;
+    		left: 21%;
+    		transform: translate(-12%, -50%);
 	}
 
 	.overlay-desc{
@@ -2734,7 +2734,7 @@ button:hover{
 
 	textarea{
 	 	font-family: montserrat, sans-serif;
-	  font-weight: 300;
+	  	font-weight: 300;
 		font-size: 0.8em;
 	 	min-width: 97%;
 	 	max-width: 97%;
@@ -2785,27 +2785,27 @@ button:hover{
 	.primary-footer-navigation{
 		display:flex;
 		flex-wrap: wrap;
-	  justify-content: space-between;
-	  align-items: center;
-	  flex-direction: column;
+	  	justify-content: space-between;
+	  	align-items: center;
+	  	flex-direction: column;
 	}
 
 	.primary-footer-navigation ul {
-	  margin: 0 auto;
-	  padding: 3% 5%;
-	  display: flex;
-	  justify-content: space-around;
+	  	margin: 0 auto;
+	  	padding: 3% 5%;
+	  	display: flex;
+	  	justify-content: space-around;
 	}
 
 	.primary-footer-navigation ul li {
-	  display: inline;
-	  margin: 0 auto;
+	  	display: inline;
+	  	margin: 0 auto;
 	}
 
 	.primary-footer-navigation ul li a {
-	  color: #fff;
-	  font-size: 1em;
-	  font-weight: 300;
+	  	color: #fff;
+	  	font-size: 1em;
+	  	font-weight: 300;
 	}
 
 	.primary-footer-navigation .main li+li:before{
