@@ -842,7 +842,7 @@ hr{
 .contact-wrapper .contact-main p{
 	font-weight: 300;
 	font-size: 1em;
-	margin: 0 auto 2%;
+	margin: 2% auto;
 }
 
 .contact-main-inner{
@@ -865,6 +865,7 @@ input[type=text]{
 
 #title{
  	width: 10%;
+ 	margin-top: 2%;
  	margin-right: 2%;
 }
 	
@@ -1110,7 +1111,7 @@ button:hover{
 	.contact-wrapper .contact-main p{
 		font-weight: 300;
 		font-size: 1em;
-		margin: 0 auto 2%;
+		margin: 2% auto;
 	}
 
 	.contact-main-inner{
