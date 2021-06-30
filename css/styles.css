@@ -1001,7 +1001,7 @@ button:hover{
 }
 
 .text-main{
-	width: 70%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -1013,7 +1013,11 @@ button:hover{
 	color: #ad7b61;
 }
 
-.text-main p{
+.text-main .textarea{
+	margin-bottom: 5%;
+}
+
+.text-main .textarea p{
 	font-weight: 300;
 	font-size: 1em;
 }
@@ -1694,6 +1698,10 @@ button:hover{
 		font-size: 4em;
 		margin-bottom: 2%;
 		color: #ad7b61;
+	}
+
+	.text-main .textarea{
+		margin-bottom: 2%;
 	}
 
 	.text-main p{
