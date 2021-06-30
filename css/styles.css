@@ -787,11 +787,6 @@ tr:nth-child(even) {
 	margin: 0 0 5%;
 }
 
-.highlightbox:hover{
-	color: #ad7b61;
-	transition: color .4s;
-}
-
 .highlightbox .text{
 	margin-top: 15%;
 	text-transform: uppercase;
@@ -1074,7 +1069,7 @@ button:hover{
 
 
 																	                                                 /*Media Qureies*/
-@media screen and (min-width: 981px)/*greater than or equal to 981px*/{
+@media screen and (min-width: 981)/*greater than or equal to 981px*/{
 																	                       /*Main Navigation*/
 	.header li {
     float: left;
@@ -2285,16 +2280,15 @@ button:hover{
 		margin: 0 auto 10%;
 	}
 
-	.highlightbox:hover{
-		color: #ad7b61;
-		transition: color .4s;
-	}
-
 	.highlightbox .text{
 		margin-top: 15%;
 		text-transform: uppercase;
 		font-weight: 300;
 		font-size: 1.5em;
+	}
+
+	.highlightbox .text{
+		color: #ad7b61;
 	}
 
 	.highlightbox .image img{
