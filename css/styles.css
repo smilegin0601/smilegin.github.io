@@ -1858,7 +1858,7 @@ button:hover{
 		font-size: 2em;
 	}
 
-	.slogan p{
+		.overlay-model-main .slogan{
 		display: none;
 	}
 
@@ -1976,10 +1976,6 @@ button:hover{
 		text-transform: uppercase;
 		font-weight: 200;
 		font-size: 3em;
-	}
-
-	.slogan{
-		display: none;
 	}
 
 	.overlay-text-main-bottom p{
