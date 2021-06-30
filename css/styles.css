@@ -2452,10 +2452,13 @@ button:hover{
 	.primary-footer-navigation ul {
 	  margin: 0 auto;
 	  padding: 3% 5%;
+	  display: flex;
+	  justify-content: space-around;
 	}
 
 	.primary-footer-navigation ul li {
 	  display: inline;
+	  margin: 0 auto;
 	}
 
 	.primary-footer-navigation ul li a {
@@ -2476,6 +2479,7 @@ button:hover{
 
 	.primary-footer-navigation .socials li{
 		padding: 0 5%;
+		margin: 0 25%;
 	}
 
 	.primary-footer-navigation .socials li a{
