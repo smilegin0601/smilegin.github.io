@@ -411,7 +411,7 @@ img {
 	display:flex;
   justify-content: space-between;
   align-items: center;
-  color: red;
+  /*color: red;*/
 }
 
 .sec-navigation ul {
@@ -1070,7 +1070,18 @@ button:hover{
 
 
 																	                                                 /*Media Qureies*/
-@media screen and (min-width: 981px) and (-webkit-min-device-pixel-ratio: 1.5)/*greater than or equal to 981px*/{
+@media screen and (-webkit-min-device-pixel-ratio: 1.5){
+	.overlay-text-wrapper{
+		position: absolute;
+	  top: 25%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	}
+}
+
+
+
+@media screen and (min-width: 981px)/*greater than or equal to 981px*/{
 																	                       /*Main Navigation*/
 	.header li {
     float: left;
