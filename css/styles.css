@@ -1954,7 +1954,7 @@ button:hover{
 
 	.overlay-text-wrapper{
 		position: absolute;
-	  top: 25%;
+	  top: 23%;
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 	}
@@ -1986,7 +1986,7 @@ button:hover{
 	.overlay-text-main-register h1{
 		text-transform: uppercase;
 		font-weight: 200;
-		font-size: 1.5em;
+		font-size: 1.2em;
 		margin-top: 5%;
 	}
 
