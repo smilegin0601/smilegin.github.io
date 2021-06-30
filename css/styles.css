@@ -79,7 +79,7 @@ img {
 .header .logo {
 	display: block;
 	float: left;
-	margin-top: 1.5%;
+	margin-top: 1.1%;
 	margin-left: 10.3%;
 }
 
@@ -332,7 +332,7 @@ img {
 .model-wrapper{
 	width: 100vw;
 	margin: 0 auto;
-	padding-top: 6%;
+	padding-top: 7.1%;
 }
 
 .model-main{
@@ -461,7 +461,7 @@ img {
 
 .overlay-text-wrapper{
 	position: absolute;
-  top: 28%;
+  top: 38.5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -592,7 +592,7 @@ img {
 .type-main h1{
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	color: #ad7b61;
 	border-bottom: 1px solid #ad7b61;
 	padding-bottom: 3%;
@@ -732,22 +732,21 @@ tr:nth-child(even) {
 
 .desc-main{
 	width: 100%;
-	margin: 0 auto 7%;
+	margin: 7% auto;
 	position: relative;
   text-align: left;
 }
 
 .desc-main img{
 	width: 100%;
-	margin-top: 7%;
 	filter: brightness(50%);
 }
 
 .overlay-desc-wrapper{
 	position: absolute;
-  top: 52%;
-  left: 39%;
-  transform: translate(-30%, -45%);
+	top: 50%;
+	left: 33%;
+	transform: translate(-25%, -45%);
 }
 
 .overlay-desc{
@@ -835,89 +834,74 @@ tr:nth-child(even) {
 	color: #ad7b61;
 }
 
-hr{
-	margin: 2% auto;
-}
-
 .contact-wrapper .contact-main p{
 	font-weight: 300;
 	font-size: 1em;
-	margin: 2% auto;
+	margin: 1% auto 0;
+}
+
+hr{
+	margin: 3% auto;
 }
 
 .contact-main-inner{
-	width: 90%;
-	margin: 0 auto;
-	text-align: center;
+	margin: 3% auto;
 }
 
 input[type=text]{
-	width: 25%;
-  margin-bottom: 48px;
-  padding: 12px;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  font-family: montserrat, sans-serif;
-  font-weight: 300;
+	font-family: montserrat, sans-serif;
+	font-weight: 300;
 	font-size: 1em;
- }
+	width: 22%;
+	margin-bottom: 4%;
+	padding: 1%;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	text-align: center;
+}
 
 #title{
- 	width: 10%;
- 	margin-top: 2%;
- 	margin-right: 2%;
+ 	width: 8%;
+ 	margin-right: 0.5%;
 }
 	
 #email{
- 	width: 63%;
+ 	width: 53.5%;
 }
 
 #post{
- 	width: 22%;
-}
-
-#country{
- 	width: 63%;
-}
-
-.contact-main-inner .location input{
- 	width: 40%;
+ 	width: 8.5%;
 }
 
 #subject{
- 	width: 63%;
+ 	width: 53.5%;
 }
 
 textarea{
- 	min-width: 63%;
- 	max-width: 63%;
- 	margin-bottom: 20px;
- 	padding: 12px 12px 100px 12px;
- 	border: 1px solid black;
-  border-radius: 4px;
-  overflow: auto;
-  font-family: montserrat, sans-serif;
+ 	font-family: montserrat, sans-serif;
   font-weight: 300;
 	font-size: 1em;
+ 	min-width: 53.5%;
+ 	max-width: 53.5%;
+ 	padding: 1% 1% 15% 1%;
+	border: 1px solid black;
+	border-radius: 4px;
+	overflow: auto;
 }
 
-.radiobtn label{
-	width: 10%;
-}
-
-.radiobtn label input{
-	margin: 2% auto;
+.radiobtn{
+	width: 53.5%;
+	margin: 0 auto 4%;
 }
 
 button{
-	color: #ad7b61;
-	margin-top: 3%;
-	padding: 1% 6%;
-	border: 1px solid #ad7b61;
 	text-transform: uppercase;
 	font-weight: 300;
 	font-size: 1em;
+	color: #ad7b61;
+	padding: 1.5% 8%;
+	border: 1px solid #ad7b61;
 	cursor: pointer;
 }
 
@@ -1017,7 +1001,7 @@ button:hover{
 }
 
 .text-main{
-	width: 80%;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -1075,7 +1059,7 @@ button:hover{
 @media screen and (-webkit-min-device-pixel-ratio: 1.5){
 	.overlay-text-wrapper{
 		position: absolute;
-	  top: 24%;
+	  top: 25%;
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 	}
@@ -1096,7 +1080,7 @@ button:hover{
   .header .logo {
 		display: block;
 		float: left;
-		margin-top: 1.2%;
+		margin-top: 1%;
 		margin-left: 10.3%;
 	}
 
@@ -1135,7 +1119,7 @@ button:hover{
 	}
 
 	.main-model-wrapper .main-model-main p{
-		font-size: 1.2em;
+		font-size: 1.5em;
 	}
 
 
@@ -1210,7 +1194,7 @@ button:hover{
 
 																	                                                 /*Models Page*/
 	.model-wrapper{
-		padding-top: 3.8%;
+		padding-top: 5%;
 	}
 
 	.model-main img{
@@ -1526,46 +1510,173 @@ button:hover{
 	.contact-wrapper{
 		width: 100vw;
 		padding: 7% 0 3%;
+		background-color: #fff;
+		color: #000;
 	}
 
 	.contact-wrapper .contact-main{
-		width: 100vw;
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
 	}
 
 	.contact-wrapper .contact-main h1{
+		text-transform: uppercase;
+		font-weight: 300;
 		font-size: 4em;
+		margin: 0 auto;
+		color: #ad7b61;
+	}
+
+	.contact-wrapper .contact-main p{
+		font-weight: 300;
+		font-size: 1em;
+		margin: 0 auto;
 	}
 
 	hr{
-		width: 60%;
+		margin: 2% auto;
 	}
 
 	.contact-main-inner{
-		width: 50%;
+		margin: 2% auto;
 	}
 
+	input[type=text]{
+		font-family: montserrat, sans-serif;
+	  font-weight: 300;
+		font-size: 1em;
+		width: 12%;
+	  margin-bottom: 2%;
+	  padding: 1%;
+	  border-top: 0;
+	  border-left: 0;
+	  border-right: 0;
+	  text-align: center;
+	 }
+
 	#title{
- 		width: 10%;
- 		margin-right: 2%;
+	 	width: 5%;
+	 	margin-right: 0.5%;
+	}
+
+	#email{
+	 	width: 30.1%;
+	}
+
+	#post{
+	 	width: 5.45%;
+	}
+
+	#subject{
+	 	width: 30.1%;
+	}
+
+	textarea{
+	 	font-family: montserrat, sans-serif;
+	  font-weight: 300;
+		font-size: 1em;
+	 	min-width: 30.1%;
+	 	max-width: 30.1%;
+	 	padding: 1% 1% 10% 1%;
+	 	border: 1px solid black;
+	  border-radius: 4px;
+	  overflow: auto;
+	}
+
+	.radiobtn{
+		width: 30.1%;
+		margin: 0 auto 2%;
 	}
 
 	button{
-		margin-top: 1%;
+		color: #ad7b61;
+		padding: 1% 6%;
+		border: 1px solid #ad7b61;
+		text-transform: uppercase;
+		font-weight: 300;
+		font-size: 1em;
+		cursor: pointer;
+	}
+
+	button:hover{
+		background-color: #000;
+		color: #fff;
+		border: 1px solid #000;
+		transition: background-color .4s;
+		transition: color .4s;
 	}
 
 
 
 																	                                                 /*Footer*/
-	.primary-footer-navigation ul li a {
-  	font-size: 1em;
+	.footer-navigation-wrapper{
+		width: 100vw;
+		margin: 0 auto 2%;
+		border-top: 1px solid #2E3134;
+	}
+
+	.footer-navigation-main{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.primary-footer-navigation{
+		display:flex;
+	  justify-content: space-between;
+	  align-items: center;
+	}
+
+	.primary-footer-navigation ul{
+	  margin: 0;
+	  padding: 1.5vw 0;
+	  text-align: right;
+	  display: flex;
+	  justify-content: flex-end;
+	}
+
+	.primary-footer-navigation ul li{
+	  display: inline;
+	}
+
+	.primary-footer-navigation ul li a{
+	  color: #fff;
+	  font-size: 1.25em;
+	  font-weight: 300;
+	}
+
+	.primary-footer-navigation .main li a:hover{
+		color: #ad7b61;
+		transition: color .4s;
+	}
+
+	.primary-footer-navigation .socials li{
+		margin-left: 70%;
 	}
 
 	.primary-footer-navigation .socials li a{
 		font-size: 1em;
 	}
 
+	.footer-page-details-wrapper{
+		width: 100vw;
+		margin: 0 auto;
+		border-top: 1px solid #2E3134;
+	}
+
+	.footer-page-details-main{
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
 	.footer-page-details-main img{
-		margin: 3% 0 1%;
+		margin: 2% 0 1%;
+	}
+
+	.footer-page-details-main p{
+		font-size: 1em;
+		font-weight: 300;
 	}
 
 
@@ -1628,14 +1739,7 @@ button:hover{
 
 
 
-@media screen and (-webkit-min-device-pixel-ratio: 3.5){
-	.overlay-text-wrapper{
-		position: absolute;
-	  top: 25%;
-	  left: 50%;
-	  transform: translate(-50%, -50%);
-	}
-}
+
 
 
 
@@ -1786,6 +1890,8 @@ button:hover{
 
 	.dealership-main img{
 		width: 100vw;
+		height: 25vh;
+		object-fit: cover;
 		filter: brightness(70%);
 	}
 
@@ -1794,7 +1900,7 @@ button:hover{
 																		                       /*Dealership Section - Text*/
 	.overlay-dealer-wrapper{
 		position: absolute;
-	  top: 50%;
+	  top: 46%;
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 	}
@@ -1806,21 +1912,22 @@ button:hover{
 	.overlay-dealer-main h1{
 		text-transform: uppercase;
 		font-weight: 300;
-		font-size: 1em;
+		font-size: 1.7em;
 		text-shadow: 5px 5px 10px #000;
 	}
 
 	.overlay-dealer .stay-connected{
 		text-align: center;
-		margin-top: 3%;
+		margin-top: 8%;
 	}
 
 	.overlay-dealer .stay-connected a{
-		padding: 1% 5%;
-		background-color: #ad7b61;
 		text-transform: uppercase;
 		font-weight: 300;
-		font-size: 0.8em;
+		font-size: 1em;
+		padding: 3% 7%;
+		color: #ad7b61;
+		border: 1px solid #ad7b61;
 	}
 
 	.overlay-dealer .stay-connected a:hover{
@@ -1879,7 +1986,7 @@ button:hover{
 		font-size: 2em;
 	}
 
-		.overlay-model-main .slogan{
+	.overlay-model-main .slogan{
 		display: none;
 	}
 
@@ -1888,8 +1995,7 @@ button:hover{
 	}
 
 	.overlay-model-main .discover a{
-		width: 25%;
-		padding: 1.5% 3%;
+		padding: 3% 6%;
 		color: #ad7b61;
 		border: 1px solid #ad7b61;
 		text-align: center;	
@@ -1977,7 +2083,7 @@ button:hover{
 
 	.overlay-text-wrapper{
 		position: absolute;
-	  top: 23%;
+	  top: 21.5%;
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 	}
@@ -2064,7 +2170,7 @@ button:hover{
 
 	.spec-main{
 		width: 80%;
-		margin: 7% auto;
+		margin: 10% auto;
 		text-align: center;
 	}
 
@@ -2118,7 +2224,7 @@ button:hover{
 	table {
 	  border-collapse: collapse;
 	  width: 80%;
-	  margin: 0 auto 2%;
+	  margin: 0 auto 5%;
 	}
 
 	td, th {
@@ -2126,6 +2232,7 @@ button:hover{
 	  padding: 3%;
 	  font-weight: 300;
 	  line-height: 1.5;
+	  font-size: 1em;
 	}
 
 	tr:nth-child(even) {
@@ -2251,20 +2358,19 @@ button:hover{
 
 	.desc-main{
 		width: 100%;
-		margin: 0 auto 7%;
+		margin: 10% auto;
 		position: relative;
 	  text-align: left;
 	}
 
 	.desc-main img{
 		width: 100%;
-		margin-top: 7%;
 		filter: brightness(50%);
 	}
 
 	.overlay-desc-wrapper{
 		position: absolute;
-	  top: 58%;
+	  top: 54%;
     left: 21%;
     transform: translate(-12%, -50%);
 	}
@@ -2353,92 +2459,87 @@ button:hover{
 		text-transform: uppercase;
 		font-weight: 300;
 		font-size: 1.5em;
-		margin: 0 auto 3%;
+		margin: 0 auto;
 		color: #ad7b61;
-	}
-
-	hr{
-		margin: 4% auto;
 	}
 
 	.contact-wrapper .contact-main p{
 		font-weight: 300;
 		font-size: 0.8em;
-		margin: 0 auto 2%;
+		margin: 1% auto 0;
+	}
+
+	hr{
+		margin: 5% auto;
 	}
 
 	.contact-main-inner{
-		width: 100%;
-		margin: 0 auto;
-		text-align: center;
+		margin: 5% auto 10%;
 	}
 
 	input[type=text]{
-		width: 37%;
-	  margin-bottom: 20px;
-	  padding: 12px;
-	  border-top: 0;
-	  border-left: 0;
-	  border-right: 0;
-	  font-family: montserrat, sans-serif;
-	  font-weight: 300;
-		font-size: 1em;
-	 }
+		font-family: montserrat, sans-serif;
+		font-weight: 300;
+		font-size: 0.8em;
+		width: 39%;
+		margin-bottom: 10%;
+		padding: 1%;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		text-align: center;
+	}
 
 	#title{
-	 	width: 20%;
-	 	margin-right: 2%;
+	 	width: 17%;
+	 	margin-right: 0.5%;
 	}
 		
 	#email{
-	 	width: 100%;
+	 	width: 97%;
+	}
+
+	#city{
+		width: 79%;
 	}
 
 	#post{
-	 	width: 38%;
+	 	width: 17%;
 	}
 
 	#country{
-	 	width: 100%;
-	}
-
-	.contact-main-inner .location input{
-	 	width: 60%;
+	 	width: 97%;
 	}
 
 	#subject{
-	 	width: 100%;
+	 	width: 97%;
 	}
 
 	textarea{
-	 	min-width: 100%;
-	 	max-width: 100%;
-	 	margin-bottom: 20px;
-	 	padding: 12px 12px 100px 12px;
-	 	border: 1px solid black;
-	  border-radius: 4px;
-	  overflow: auto;
-	  font-family: montserrat, sans-serif;
+	 	font-family: montserrat, sans-serif;
 	  font-weight: 300;
-		font-size: 1em;
+		font-size: 0.8em;
+	 	min-width: 97%;
+	 	max-width: 97%;
+	 	padding: 2% 2% 30% 2%;
+		border: 1px solid black;
+		border-radius: 4px;
+		overflow: auto;
 	}
 
-	.radiobtn label{
-		width: 10%;
-	}
-
-	.radiobtn label input{
-		margin: 2% auto;
+	.radiobtn{
+		width: 97%;
+		margin: 0 auto 10%;
+		font-size: 0.8em;
 	}
 
 	button{
-		color: #ad7b61;
-		margin-top: 8%;
-		padding: 3% 10%;
-		border: 1px solid #ad7b61;
 		text-transform: uppercase;
 		font-weight: 300;
 		font-size: 1em;
+		color: #ad7b61;
+		padding: 2.5% 14%;
+		border: 1px solid #ad7b61;
 		cursor: pointer;
 	}
 
@@ -2542,7 +2643,7 @@ button:hover{
 	}
 
 	.text-main{
-		width: 70%;
+		width: 80%;
 		margin: 0 auto;
 	}
 
