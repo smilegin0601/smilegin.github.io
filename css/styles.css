@@ -1078,6 +1078,32 @@ button:hover{
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 	}
+	
+	.text-wrapper{
+		width: 100vw;
+		margin: 0 auto;
+		padding: 12% 0 6%;
+		background-color: #fff;
+		color: #000;
+	}
+
+	.text-main{
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.text-main h1{
+		text-transform: uppercase;
+		font-weight: 300;
+		font-size: 3em;
+		margin-bottom: 5%;
+		color: #ad7b61;
+	}
+
+	.text-main p{
+		font-weight: 300;
+		font-size: 1em;
+	}
 }
 
 
